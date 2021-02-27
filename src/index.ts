@@ -1,8 +1,6 @@
-
-
-console.log('Hola Mundo!');
+console.log('Inspire a generation!');
 
 /*
-    ===== Código de TypeScript =====
+    ===== TypeScript Code =====
 */
 
