@@ -1,5 +1,4 @@
+let nombre: string = 'Strider';
+let hp: number | string = 95;
 
-let surname: string = 'Fernandez';
-let hp: number = 95;
-
-console.log(surname, hp);
+console.log(nombre, hp);

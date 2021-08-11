@@ -1,18 +1,18 @@
-let skills: string[] = ['Bash', 'Counter', 'Healing'];
+let habilidades: string[] = ['Yoga', 'Meditacion'];
 
-interface Character {
-    name: string,
-    life: number,
-    skills: string[],
-    city?: string
+interface Personaje {
+    nombre: string,
+    edad: number,
+    hobbies: string[],
+    sexo?: string
 }
 
-const character: Character = {
-    name: 'John',
-    life: 100,
-    skills: ['Bash', 'Counter', 'Healing']
-}
+const personaje: Personaje = {
+    nombre: 'Silvana',
+    edad: 32,
+    hobbies: ['Cantar', 'Leer', 'Tocar el piano']
+};
 
-character.city = "LA";
+personaje.sexo = 'mujer';
 
-console.table(character);
+console.table(personaje);
